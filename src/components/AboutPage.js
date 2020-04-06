@@ -5,7 +5,14 @@ class AboutPage extends React.Component {
     return (
       <>
         <h2>About</h2>
-        <p>This app uses React.</p>
+        <p>This app was made following a course on Pluralsight using React.</p>
+        <a
+          href="https://app.pluralsight.com/library/courses/react-flux-building-applications/table-of-contents"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Link to course
+        </a>
       </>
     );
   }
